@@ -4,4 +4,5 @@ main: regalk.test.Test
 api-version: 1.18
 authors: [ Regalk ]
 commands:
-  test: Testing Command
+  test:
+    description: Testing commands

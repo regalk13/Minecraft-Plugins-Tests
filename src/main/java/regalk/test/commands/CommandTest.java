@@ -1,6 +1,5 @@
 package regalk.test.commands;
 
-import org.bukkit.ChatColor;
 import regalk.test.main;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.Command;
@@ -13,7 +12,7 @@ public class CommandTest implements CommandExecutor {
 
     public CommandTest(main plugin){
         this.plugin = plugin;
-        plugin.getCommand("test").setExecutor(plugin);
+        plugin.getCommand("test").setExecutor(this);
     }
 
     @Override
