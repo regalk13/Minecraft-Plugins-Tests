@@ -1,0 +1,5 @@
+name: Test
+version: '${project.version}'
+main: regalk.test.Test
+api-version: 1.18
+authors: [ Regalk ]
